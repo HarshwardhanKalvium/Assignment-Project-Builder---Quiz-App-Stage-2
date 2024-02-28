@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(36, 13, 47, 1);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+  background-color: rgba(10, 19, 31, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  height: 90px;
+  margin-bottom: 70px;
+}
+nav>button{
+  height: 40px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+}
+nav>div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(239,53,52);
+}
+nav>div>h2{
+  margin-top: 7%;
+  margin-left: 0.5%;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+

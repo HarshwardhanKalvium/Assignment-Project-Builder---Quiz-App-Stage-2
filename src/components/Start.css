@@ -1,0 +1,27 @@
+.start-div{
+    /* border: 2px solid red; */
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.start-div>h1{
+    font-size: 80px;
+    margin-top: 50px;
+    text-decoration: underline;
+    color: white;
+}
+.start-div>button{
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.start-div>button:hover{
+    cursor: pointer;
+}
